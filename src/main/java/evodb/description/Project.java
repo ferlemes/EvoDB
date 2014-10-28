@@ -28,4 +28,13 @@ public class Project {
 	public void addChangeSet(ChangeSet aChangeSet) {
 		this.getLastVersion().addChangeSet(aChangeSet);
 	}
+
+	public String generateAlters() {
+		StringBuilder projectAlters = new StringBuilder();
+		projectAlters.append("// Building database for project: " + this.name + "\n");
+		for (Version eachVersion : this.projectVersions) {
+			projectAlters.append(eachVersion.generateAlters());
+		}
+		return projectAlters.toString();
+	}
 }

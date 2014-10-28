@@ -1,5 +1,11 @@
 package evodb.description;
 
-public class ChangeSet {
+import java.util.List;
 
+import evodb.alter.Alter;
+
+public interface ChangeSet {
+
+	List<Alter> getAlters();
+	
 }
