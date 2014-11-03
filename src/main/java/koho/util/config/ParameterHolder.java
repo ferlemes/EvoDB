@@ -1,8 +1,8 @@
-package myConfig;
+package koho.util.config;
 
 import java.util.logging.Logger;
 
-import myConfig.source.ParameterSource;
+import koho.util.config.source.ParameterSource;
 
 /**
  * This class is a holder for parameter values with an encapsulated way of retrieving it.  

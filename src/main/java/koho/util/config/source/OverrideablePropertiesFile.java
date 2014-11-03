@@ -1,4 +1,4 @@
-package myConfig.source;
+package koho.util.config.source;
 
 /**
  * A parameter source from a properties file which values may be override by system properties.

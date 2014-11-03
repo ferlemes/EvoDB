@@ -1,4 +1,4 @@
-package evodb.representation;
+package koho.evodb.representation;
 
 import java.util.ArrayList;
 import java.util.Arrays;

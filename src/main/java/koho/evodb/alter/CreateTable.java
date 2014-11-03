@@ -1,7 +1,7 @@
-package evodb.alter;
+package koho.evodb.alter;
 
-import evodb.representation.Column;
-import evodb.representation.Table;
+import koho.evodb.representation.Column;
+import koho.evodb.representation.Table;
 
 public class CreateTable extends AbstractAlter {
 

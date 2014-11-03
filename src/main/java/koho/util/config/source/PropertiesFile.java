@@ -1,4 +1,4 @@
-package myConfig.source;
+package koho.util.config.source;
 
 import java.io.IOException;
 import java.io.InputStream;

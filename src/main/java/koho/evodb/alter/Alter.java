@@ -1,4 +1,4 @@
-package evodb.alter;
+package koho.evodb.alter;
 
 public interface Alter {
 

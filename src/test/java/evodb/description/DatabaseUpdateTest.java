@@ -2,6 +2,8 @@ package evodb.description;
 
 import java.util.Date;
 
+import koho.evodb.description.DatabaseUpdate;
+
 import org.junit.Assert;
 import org.junit.Test;
 import org.junit.runner.RunWith;

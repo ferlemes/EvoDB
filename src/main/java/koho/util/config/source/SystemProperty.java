@@ -1,4 +1,4 @@
-package myConfig.source;
+package koho.util.config.source;
 
 /**
  * This class retrieves parameters values from the system properties. 

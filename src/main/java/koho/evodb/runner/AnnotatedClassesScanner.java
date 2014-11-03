@@ -1,10 +1,10 @@
-package evodb.runner;
+package koho.evodb.runner;
 
 import java.util.Set;
 
-import org.reflections.Reflections;
+import koho.evodb.annotation.ChangeSet;
 
-import evodb.annotation.ChangeSet;
+import org.reflections.Reflections;
 
 public class AnnotatedClassesScanner {
 

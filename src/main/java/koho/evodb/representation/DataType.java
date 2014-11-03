@@ -1,4 +1,4 @@
-package evodb.representation;
+package koho.evodb.representation;
 
 public enum DataType {
 

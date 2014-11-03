@@ -3,17 +3,17 @@ package evodb.execution;
 import java.util.ArrayList;
 import java.util.List;
 
+import koho.evodb.alter.Alter;
+import koho.evodb.alter.CreateTable;
+import koho.evodb.description.ChangeSet;
+import koho.evodb.description.Project;
+import koho.evodb.representation.Column;
+import koho.evodb.representation.DataType;
+import koho.evodb.representation.Table;
+
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.junit.runners.JUnit4;
-
-import evodb.alter.Alter;
-import evodb.alter.CreateTable;
-import evodb.description.ChangeSet;
-import evodb.description.Project;
-import evodb.representation.Column;
-import evodb.representation.DataType;
-import evodb.representation.Table;
 
 @RunWith(JUnit4.class)
 public class SampleScenario {

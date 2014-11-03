@@ -1,9 +1,9 @@
-package evodb.description;
+package koho.evodb.description;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import evodb.alter.Alter;
+import koho.evodb.alter.Alter;
 
 public class Version {
 	
